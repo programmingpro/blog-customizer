@@ -32,13 +32,15 @@
 	cursor: pointer;
 }
 
+/* Убираем бордер у последнего в radiogroup, чтобы не было двойного бордера */
+
 .item:last-child .label {
 	border: none;
 }
 
 .label:hover,
-.item[data-checked='false'] .label:hover {
-	background: var(--khaki, #ffedab);
+.item[data-checked='true'] .label:hover {
+	background: var(--gold, #ffc802);
 }
 
 .item[data-checked='true'] .label {
