@@ -90,27 +90,27 @@ export const ArticleParamsForm = ({
 						onChange={setFontFamily}
 					/>
 					<RadioGroup
-						title={'Размер'}
+						title={'Размер Шрифта'}
 						name='font-size'
 						options={fontSizeOptions}
 						selected={fontSize}
 						onChange={setFontSize}
 					/>
 					<Select
-						title={'Цвет'}
+						title={'Цвет Шрифта'}
 						options={fontColors}
 						selected={fontColor}
 						onChange={setFontColor}
 					/>
 					<Separator />
 					<Select
-						title={'Цвет'}
+						title={'Цвет Фона'}
 						options={backgroundColors}
 						selected={bgColor}
 						onChange={setBgColor}
 					/>
 					<Select
-						title={'Ширина'}
+						title={'Ширина Контента'}
 						options={contentWidthArr}
 						selected={contentWidth}
 						onChange={setContentWidth}

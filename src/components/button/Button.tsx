@@ -37,4 +37,4 @@ export const Button = ({
 			</Text>
 		</button>
 	);
-}
+};
